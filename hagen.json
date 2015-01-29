@@ -1,23 +1,16 @@
 {
   "name": "Freifunk Hagen",
-  "url": "http://freifunk-ruhrgebiet.de",
+  "url": "http://freifunk-hagen.de",
   "location": {
     "city": "Hagen",
     "country": "DE",
     "lat": 51.360087,
-    "lon": 7.468892,
-    "address": {
-      "Name": "foobar e.V.",
-      "Street": "Sibyllastr. 9",
-      "Zipcode": "45136"
-    }
+    "lon": 7.468892
   },
   "contact": {
-    "facebook": "https://www.facebook.com/freifunk.ruhrgebiet",
-    "email": "kontakt@freifunk-ruhrgebiet.de",
+    "email": "info@freifunk-hagen.de",
     "irc": "irc://irc.freenode.net/ffruhr",
-    "ml": "ffrl@mailman.freifunk-rheinland.net",
-    "twitter": "@ffruhr"
+    "twitter": "@FFHagen"
   },
   "metacommunity": "Freifunk Ruhrgebiet",
   "state": {
