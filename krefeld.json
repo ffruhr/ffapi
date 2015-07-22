@@ -13,11 +13,10 @@
     }
   },
   "contact": {
-    "facebook": "https://www.facebook.com/freifunk.ruhrgebiet",
-    "email": "kontakt@freifunk-ruhrgebiet.de",
+    "facebook": "https://www.facebook.com/groups/291694177532563/",
+    "email": "kontakt@freifunk-krefeld.de",
     "irc": "irc://irc.freenode.net/ffruhr",
-    "ml": "ffrl@mailman.freifunk-rheinland.net",
-    "twitter": "@ffruhr"
+    "twitter": "@FreifunkKrefeld"
   },
   "metacommunity": "Freifunk Ruhrgebiet",
   "state": {
@@ -36,33 +35,21 @@
       "name": "EventsFeed",
       "category": "others",
       "type": "xml",
-      "url": "https://freifunk-rheinland.net/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&cb=113863465"
+      "url": "http://freifunk-krefeld.de/feed/"
     }
   ],
   "nodeMaps": [
     {
-      "url": "http://map.freifunk-ruhrgebiet.de/graph.html",
-      "interval": "1 Minute",
-      "technicalType": "ffmap",
-      "mapType": "structural"
-    },
-    {
-      "url": "http://map.freifunk-ruhrgebiet.de/geomap.html",
+      "url": "http://map.freifunk-niersufer.de/",
       "interval": "1 Minute",
       "technicalType": "ffmap",
       "mapType": "geographical"
     },
-    {
-      "url": "http://map.freifunk-ruhrgebiet.de/list.html",
-      "interval": "1 Minute",
-      "technicalType": "ffmap",
-      "mapType": "list/status"
-    }
   ],
   "techDetails": {
     "firmware": {
       "name": "gluon",
-      "url": "http://images.freifunk-ruhrgebiet.de",
+      "url": "http://images.freifunk-ruhrgebiet.de/ffniers",
       "docs": "http://freifunk-ruhrgebiet.de/anleitung/"
     },
     "dns": [

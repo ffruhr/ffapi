@@ -1,11 +1,11 @@
 {
-  "name": "Freifunk Willich",
+  "name": "Freifunk Nettetal",
   "url": "http://freifunk-ruhrgebiet.de",
   "location": {
-    "city": "Willich",
+    "city": "Nettetal",
     "country": "DE",
-    "lat": 51.2654601,
-    "lon": 6.5442659,
+    "lat": 51.31667,
+    "lon": 6.28333,
     "address": {
       "Name": "foobar e.V.",
       "Street": "Sibyllastr. 9",
