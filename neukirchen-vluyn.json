@@ -1,6 +1,6 @@
 {
   "name": "Freifunk Neukirchen Vluyn",
-  "url": "http://freifunk-ruhrgebiet.de",
+  "url": "http://freifunk-nv.de",
   "location": {
     "city": "Neukirchen Vluyn",
     "country": "DE",
@@ -13,11 +13,11 @@
     }
   },
   "contact": {
-    "email": "kontakt@freifunk-ruhrgebiet.de",
+    "email": "info@freifunk-nv.de",
     "irc": "irc://irc.freenode.net/ffruhr",
     "ml": "ruhrgebiet@forum.freifunk.net",
-    "facebook": "https://www.facebook.com/freifunk.ruhrgebiet",
-    "twitter": "@ffruhr"
+    "facebook": "https://www.facebook.com/FreifunkNV",
+    "twitter": "@FreifunkNV"
   },
   "metacommunity": "Freifunk Niersufer",
   "state": {
@@ -35,8 +35,8 @@
     {
       "name": "EventsFeed",
       "category": "others",
-      "type": "xml",
-      "url": "https://freifunk-rheinland.net/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&cb=113863465"
+      "type": "ical",
+      "url": "http://freifunk-nv.de/?post_type=tribe_events&eventDisplay=list&ical=1&tribe_display=list"
     }
   ],
   "nodeMaps": [
