@@ -1,27 +1,27 @@
 {
   "name": "Freifunk Neukirchen Vluyn",
-  "url": "http://freifunk-ruhrgebiet.de",
+  "url": "http://freifunk-nv.de",
   "location": {
     "city": "Neukirchen Vluyn",
     "country": "DE",
     "lat": 51.4381509,
     "lon": 6.5354296,
     "address": {
-      "Name": "foobar e.V.",
-      "Street": "Sibyllastr. 9",
-      "Zipcode": "45136"
+      "Name": "KuCa",
+      "Street": "Von-der-Leyen-Platz 1",
+      "Zipcode": "47506"
     }
   },
   "contact": {
-    "email": "kontakt@freifunk-ruhrgebiet.de",
+    "email": "info@freifunk-nv.de",
     "irc": "irc://irc.freenode.net/ffruhr",
     "ml": "ruhrgebiet@forum.freifunk.net",
-    "facebook": "https://www.facebook.com/freifunk.ruhrgebiet",
-    "twitter": "@ffruhr"
+    "facebook": "https://www.facebook.com/FreifunkNV",
+    "twitter": "@FreifunkNV"
   },
   "metacommunity": "Freifunk Niersufer",
   "state": {
-    "nodes": 15,
+    "nodes": 23,
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
@@ -29,7 +29,7 @@
       "Local services and content",
       "Free internet access"
     ],
-    "lastchange": "2015-07-18T09:20:06.985Z"
+    "lastchange": "2015-09-29T18:39:25.440Z"
   },
   "feeds": [
     {
@@ -41,22 +41,16 @@
   ],
   "nodeMaps": [
     {
-      "url": "http://map.freifunk-ruhrgebiet.de/graph.html",
+      "url": "http://api.freifunk-niersufer.de/nv/graph.json",
       "interval": "1 Minute",
       "technicalType": "ffmap",
       "mapType": "structural"
     },
     {
-      "url": "http://map.freifunk-ruhrgebiet.de/geomap.html",
+      "url": "http://api.freifunk-niersufer.de/nv/nodes.json",
       "interval": "1 Minute",
       "technicalType": "ffmap",
       "mapType": "geographical"
-    },
-    {
-      "url": "http://map.freifunk-ruhrgebiet.de/list.html",
-      "interval": "1 Minute",
-      "technicalType": "ffmap",
-      "mapType": "list/status"
     }
   ],
   "support": {
@@ -72,7 +66,7 @@
   "techDetails": {
     "firmware": {
       "name": "gluon",
-      "url": "http://images.freifunk-ruhrgebiet.de",
+      "url": "http://images.freifunk-ruhrgebiet.de/ffniers/stable/",
       "docs": "http://freifunk-ruhrgebiet.de/anleitung/"
     },
     "dns": [
@@ -109,5 +103,5 @@
       "institutions"
     ]
   },
-  "api": "0.4.8"
+  "api": "0.4.9"
 }
