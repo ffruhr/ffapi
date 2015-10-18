@@ -1,6 +1,6 @@
 {
   "name": "Freifunk Krefeld",
-  "url": "http://freifunk-ruhrgebiet.de",
+  "url": "http://www.freifunk-krefeld.de",
   "location": {
     "city": "Krefeld",
     "country": "DE",
@@ -14,13 +14,12 @@
   },
   "contact": {
     "email": "kontakt@freifunk-krefeld.de",
-    "irc": "irc://irc.freenode.net/ffruhr",
-    "facebook": "https://www.facebook.com/groups/291694177532563",
+    "facebook": "https://facebook.com/freifunk.krefeld",
     "twitter": "@FreifunkKrefeld"
   },
   "metacommunity": "Freifunk Niersufer",
   "state": {
-    "nodes": 15,
+    "nodes": 30,
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
