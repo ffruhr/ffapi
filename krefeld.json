@@ -40,7 +40,7 @@
   ],
   "nodeMaps": [
     {
-      "url": "http://map.freifunk-ruhrgebiet.de",
+      "url": "http://api.freifunk-niersufer.de/kr/nodes.json",
       "interval": "1 Minute",
       "technicalType": "ffmap",
       "mapType": "list/status"
