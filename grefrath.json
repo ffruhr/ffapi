@@ -1,0 +1,90 @@
+{
+  "name": "Freifunk Grefrath",
+  "url": "http://freifunk-grefrath.de",
+  "location": {
+    "city": "Grefrath",
+    "country": "DE",
+    "lat": 51.33637,
+    "lon": 6.34157
+  },
+  "contact": {
+    "email": "admin@de-script.de",
+    "facebook": "https://www.facebook.com/ffgrefrath",
+    "twitter": "@FF_Grefrath"
+  },
+  "metacommunity": "Niersufer",
+  "state": {
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Social Community Building",
+      "Local services and content",
+      "Free internet access"
+    ],
+    "lastchange": "2015-10-06T08:41:40.518Z"
+  },
+  "feeds": [
+    {
+      "name": "Freifunk Grefrath Feed",
+      "category": "blog",
+      "type": "rss",
+      "url": "http://freifunk-grefrath.de/feed/"
+    }
+  ],
+  "nodeMaps": [
+    {
+      "url": "http://map.freifunk-niersufer.de/",
+      "interval": "1",
+      "technicalType": "ffmap",
+      "mapType": "structural"
+    }
+  ],
+  "support": {
+    "donations": {
+      "campaigns": [
+        {
+          "provider": "boost",
+          "projectid": "2774"
+        }
+      ]
+    }
+  },
+  "techDetails": {
+    "firmware": {
+      "name": "Gluon",
+      "url": "http://images.freifunk-ruhrgebiet.de",
+      "docs": "http://freifunk-ruhrgebiet.de/anleitung/"
+    },
+    "dns": [
+      {
+        "domainname": "ffrg",
+        "nameserver": [
+          "10.53.0.1",
+          "10.53.8.1"
+        ]
+      }
+    ],
+    "networks": {
+      "ipv6": [
+        {
+          "network": "2a03:2260:50::/48"
+        }
+      ],
+      "ipv4": [
+        {
+          "network": "10.53.0.0/16"
+        }
+      ]
+    },
+    "routing": [
+      "batman-adv"
+    ],
+    "updatemode": [
+      "autoupdate"
+    ],
+    "legals": [
+      "institutions"
+    ]
+  },
+  "api": "0.4.9"
+}
