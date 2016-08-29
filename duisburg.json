@@ -40,6 +40,11 @@
     }
   ],
   "nodeMaps": [
+    { "url": "http://map.rg-west.freifunk.ruhr/",
+      "interval": "5m",
+      "technicalType": "meshviewer",
+      "mapType": "list/status"
+    },
     {
       "url": "http://map.freifunk-ruhrgebiet.de/graph.html",
       "interval": "1 Minute",
