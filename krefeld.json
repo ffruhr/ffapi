@@ -1,15 +1,15 @@
 {
   "name": "Freifunk Krefeld",
-  "url": "http://freifunk-ruhrgebiet.de",
+  "url": "http://freifunk-krefeld.de",
   "location": {
     "city": "Krefeld",
     "country": "DE",
     "lat": 51.341453,
     "lon": 6.587618,
     "address": {
-      "Name": "foobar e.V.",
-      "Street": "Sibyllastr. 9",
-      "Zipcode": "45136"
+      "Name": "23 Blumen",
+      "Street": "Blumenstraße 23",
+      "Zipcode": "47798"
     }
   },
   "contact": {
@@ -28,7 +28,7 @@
       "Local services and content",
       "Free internet access"
     ],
-    "lastchange": "2015-07-18T09:20:06.985Z"
+    "lastchange": "2016-08-24T07:45:10.969Z"
   },
   "feeds": [
     {
@@ -40,7 +40,7 @@
   ],
   "nodeMaps": [
     {
-      "url": "http://map.freifunk-ruhrgebiet.de",
+      "url": "http://map.freifunk-niersufer.de",
       "interval": "1 Minute",
       "technicalType": "ffmap",
       "mapType": "list/status"
@@ -59,30 +59,27 @@
   "techDetails": {
     "firmware": {
       "name": "gluon",
-      "url": "http://images.freifunk-ruhrgebiet.de/ffniers/",
-      "docs": "http://freifunk-ruhrgebiet.de/anleitung/"
+      "url": "http://images.freifunk-niersufer.de/",
+      "docs": "http://freifunk-krefeld.de/hinweis-zur-anleitung/"
     },
     "dns": [
       {
-        "domainname": "ffrg",
+        "domainname": "ffkr",
         "nameserver": [
-          "10.53.0.1",
-          "10.53.8.1"
+          "10.41.0.1",
+          "10.41.0.2"
         ]
       }
     ],
     "networks": {
       "ipv6": [
         {
-          "network": "2a03:2260:50::/48"
+          "network": "2a03:2260:50:3f00::/56"
         }
       ],
       "ipv4": [
         {
-          "network": "10.53.0.0/16"
-        },
-        {
-          "network": "10.0.0.0/16"
+          "network": "10.41.0.0/16"
         }
       ]
     },
@@ -96,5 +93,5 @@
       "institutions"
     ]
   },
-  "api": "0.4.8"
+  "api": "0.4.14"
 }
