@@ -29,7 +29,7 @@
       "Local services and content",
       "Free internet access"
     ],
-    "lastchange": "2015-09-29T13:50:27.740Z"
+    "lastchange": "2015-10-12T12:12:27.740Z"
   },
   "feeds": [
     {
@@ -44,7 +44,7 @@
          "technicalType" : "ffmap",
          "interval": "1min",
          "mapType" : "list/status",
-         "url" : "http://map.en.freifunk.ruhr/enkreis/data/nodes.json"
+         "url" : "http://map.en.freifunk.ruhr/enkreis/merge/nodes.json"
       }
   ],
   "techDetails": {
